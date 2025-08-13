@@ -1,0 +1,165 @@
+body { font-family: "DM Serif Text", serif;
+    background-color: #f9bec7;
+}
+
+:root{
+    --cor-principal:#f9bec7;
+    --cor-secundaria:#f895a4;
+    --cor-destaque:#a45662;
+    --branco:white;
+}
+
+.cabecalho{
+    background-color: var(--cor-principal);
+    color:var(var(--cor-principal));
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:5%;
+    padding:5%;
+
+}
+
+.titulo-site{
+    color: var(--cor-destaque);
+    font-size: 5.0em;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-shadow: 2px 2px 3px var(--cor-secundaria), 3px 3px 4px var(--cor-destaque);
+}
+
+.segundo-titulo-site{
+    color: var(--cor-destaque);
+    font-size: 5.0em;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-shadow: 2px 2px 3px var(--cor-secundaria), 3px 3px 4px var(--cor-destaque);
+}
+
+.menu{
+    color: var(--cor-principal);
+    background-color: var(--cor-destaque);
+}
+
+.menu > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item-manga > a{
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: 2em;
+    font-variant: small-caps;
+    transition: all 500ms;
+}
+
+.item-Light-Novels-and-Short-Stories > a{
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: 2em;
+    font-variant: small-caps;
+    transition: all 500ms;
+}
+
+.item-Franchise-Development-Books > a{
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: 2em;
+    font-variant: small-caps;
+    transition: all 500ms;
+}
+
+.parte-jogos{
+    background-color: var(--cor-principal);
+}
+
+.img-jogo1{
+    width: 120px;
+    padding: 2%;
+    border-radius: 15%;
+    margin-top: -2%;
+    margin-left: 4%;
+}
+
+.danganronpa1{
+    line-height: 2em;
+    margin-left: 20px;
+}
+
+.item-manga > a:hover{
+    color:var(--cor-principal);
+    text-shadow: 2px 2px 5px var(--cor-destaque);
+}
+
+.item-Light-Novels-and-Short-Stories > a:hover{
+    color:var(--cor-principal);
+    text-shadow: 2px 2px 5px var(--cor-destaque);
+}
+
+.item-Franchise-Development-Books > a:hover{
+    color:var(--cor-principal);
+    text-shadow: 2px 2px 5px var(--cor-destaque);
+}
+
+.img-jogo2{
+    width: 120px;
+    padding: 2%;
+    border-radius: 15%;
+    margin-top: -200%;
+    margin-left: 10%;
+
+}
+
+.danganronpa2{
+    line-height: 2em;
+    margin-left: 300px;
+    margin-top: -210px;
+
+}
+
+.img-jogo12{
+    width: 120px;
+    border-radius: 15%;
+    padding: 2%;
+    margin-top: -1.8%;
+    margin-left: 55%;
+}
+
+.danganronpa12{
+   margin-left: 600px;
+   margin-top: -210px;
+   line-height: 2em;
+}
+
+.img-danganronpav3{
+    width: 120px;
+    border-radius: 15%;
+    padding: 2%;
+    margin-top: -1.6%;
+    margin-left: 80%;
+}
+.danganronpav3{
+    line-height: 2em;
+    margin-left: 840px;
+    margin-top: -212px;
+}
+
+.comprar-botao{
+    background-color: var(--cor-secundaria);
+    border: none;
+    border-radius: 6px;
+    color:black;
+    padding: 5px;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 14.5%;
+    margin-left: 7%;
+}

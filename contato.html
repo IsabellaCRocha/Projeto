@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danganronpa - Produtos</title>
+    <link rel="shortcut icon" href="imagens/celestia.jfif" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/style.tres.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="img-kyoko"src="imagens/kyoko kirigiri.webp" alt="Logo do site.">
+        <h1 class="título-site">Danganronpa</h1>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li class="menu-item"><a href="index.html">Inicio</a></li>
+            <li class="menu-item"><a href="loja.html">Loja</a></li>
+            <li class="menu-item"><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <main class="formulario">
+        <h1 class="titulo-formulario">Formulário de contato</h1>
+        <section class="conteudo-seçao">
+            <div class="container-titulo">
+            </div>
+            <form action="" method="post">
+                <div class="campo_formulario">
+                    <label for="campo_nome">Nome Completo:</label>
+                    <input type="text" id="campo_nome" name="Nome Completo" placeholder="Nome Completo">
+                </div>
+                <div class="campo_formulario_email">
+                    <label for="campo_email">Email:</label>
+                    <input type="email" id="campo_email" name="Email" placeholder="exemplo@gmail.com" required data-tooltip="Preencha este ccampo!">
+                </div>
+                <div class="campo_formulario_tel">
+                    <label for="campo_tel">Telefone:</label>
+                    <input type="tel" id="campo_tel" name="Telefone" placeholder="(xx) xxxxx-xxxx">
+                </div>
+                <label for="opcao1">
+                    <input type="radio" id="opcao1" name="opções">
+                    Opção 1
+                </label>
+                <label for="opcao2">
+                    <input type="radio" id="opcao2" name="opçao2">
+                    Opção 2
+                </label>
+                <label for="termos-uso">
+                    <input type="checkbox" id="termos-uso" name="termos">
+                    Aceito os termos de uso
+                </label>
+
+                <br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar formulário">
+          </form>
+        </section>
+    </main>
+
+</body>
+</html>

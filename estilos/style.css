@@ -1,0 +1,39 @@
+body { font-family: "DM Serif Text", serif;
+    background-color: #f9bec7;
+}
+p {
+    font-size: 25px;
+    background-color: #f9bec7;
+    color: #000000;
+}
+img {
+    width: 350px;
+    border-radius: 10px;
+}
+.logo {
+    width: 120px
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    font-family: "DM Serif Text", serif;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 45px;
+}
+
+.menu a:hover{
+    color: white
+}
+
+.baner {
+    width: 100%;
+}
